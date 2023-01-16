@@ -1,0 +1,47 @@
+title: Fredy.dev | A blog about programming 
+email: me@fredy.dev
+description: A blog were I write about programming, tutorials, and projects.
+url: https://www.fredy.dev
+baseurl: /blog
+author:
+  name: Fredy Sandoval
+  url: https://www.fredy.dev/
+
+permalink: /:categories/:title/
+
+destination: ../dist/blog/
+
+plugins:
+  - jekyll-archives
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-gist
+
+jekyll-archives:
+  enabled: 
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    tags: '/tag/:name/'
+
+social:
+  name: Fredy Sandoval
+  links:
+    - https://twitter.com/fsandovaldev
+    - https://github.com/FredySandoval
+    - https://dev.to/fredysandoval
+    - https://medium.com/@shockerovip
+    - https://fredysandoval.hashnode.dev/
+
+gems:
+  - jekyll-tagging-related_posts
+
+paginate: 20
+paginate_path: "/page:num/"
+
+# Google Analytics
+google_analytics: G-M7RTRWEW1C

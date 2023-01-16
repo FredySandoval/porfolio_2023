@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
+
+  <noscript>JavaScript is required</noscript>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Fredy.dev</title>
+  <meta name="author" content="Fredy Sandoval">
+  <meta name="description" content="Fredy.dev is a web blog about programming, tutorials, guides, and other tools. " />
+  <meta name="keywords" content="blog, programming, tutorials, code" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Fredy.Dev" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="hero-top__wrapper">
+      <div class="logo">
+        <img src="./logo.svg" alt="logo">
+      </div>
+      <nav role="navigation">
+        <ul>
+          <li><a class="navlogo" href="/blog">Blog</a></li>
+          <li><a class="navlogo" target="_blank"
+              href="https://mail.google.com/mail/u/0/?fs=1&to=me@fredy.dev&su=Hey,%20saw%20your%20profile&body=Hey,&tf=cm">Email
+              me</a>
+          </li>
+          <li><a href="/blog">
+
+            </a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero__wrapper">
+      <div class="hero__container">
+        <h1>FREDDIE SANDOVAL</h1>
+        <ul class="hero__ul">
+          <li><span>FullStack Developer</span></li>
+          <li><span>Certified Google Workspace Administrator</span></li>
+          <li><span>UX/UI designer</span></li>
+          <li><span>English / Spanish speaker</span></li>
+        </ul>
+
+        <style>
+          .icons {
+            display: flex;
+            gap:20px;
+            color: gray;
+          }
+          .icons svg {
+            color: gray;
+
+          }
+          .icons a:hover svg {
+            color: white;
+          }
+        </style>
+        <div class="icons">
+
+          <a href="https://github.com/FredySandoval" target="_blank">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="github 1" clip-path="url(#clip0_89_801)">
+                <path id="Vector"
+                  d="M12 0C10.4241 0 8.86371 0.318095 7.4078 0.936124C5.95189 1.55415 4.62902 2.46001 3.51472 3.60198C1.26428 5.90829 0 9.03631 0 12.2979C0 17.7336 3.444 22.3453 8.208 23.981C8.808 24.0793 9 23.6981 9 23.3661C9 23.0832 9 22.3084 9 21.2877C5.676 22.0256 4.968 19.6398 4.968 19.6398C4.416 18.2132 3.636 17.832 3.636 17.832C2.544 17.0695 3.72 17.0941 3.72 17.0941C4.92 17.1802 5.556 18.3608 5.556 18.3608C6.6 20.2301 8.364 19.6767 9.048 19.3815C9.156 18.5822 9.468 18.0411 9.804 17.7336C7.14 17.4262 4.344 16.3685 4.344 11.683C4.344 10.318 4.8 9.22344 5.58 8.35029C5.46 8.04284 5.04 6.76386 5.7 5.10364C5.7 5.10364 6.708 4.77159 9 6.35803C9.948 6.08747 10.98 5.9522 12 5.9522C13.02 5.9522 14.052 6.08747 15 6.35803C17.292 4.77159 18.3 5.10364 18.3 5.10364C18.96 6.76386 18.54 8.04284 18.42 8.35029C19.2 9.22344 19.656 10.318 19.656 11.683C19.656 16.3808 16.848 17.4139 14.172 17.7213C14.604 18.1025 15 18.8527 15 19.9964C15 21.6443 15 22.9725 15 23.3661C15 23.6981 15.192 24.0916 15.804 23.981C20.568 22.333 24 17.7336 24 12.2979C24 10.6829 23.6896 9.08376 23.0866 7.59171C22.4835 6.09966 21.5996 4.74395 20.4853 3.60198C19.371 2.46001 18.0481 1.55415 16.5922 0.936124C15.1363 0.318095 13.5759 0 12 0Z"
+                  fill="currentColor" />
+              </g>
+            </svg>
+          </a>
+          <a href="https://dev.to/fredysandoval" target="_blank">
+            <svg width="40" height="40" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="Vector"
+                d="M3 12H5.4C5.71667 12 5.98767 11.8873 6.213 11.662C6.43767 11.4373 6.55 11.1667 6.55 10.85V7.15C6.55 6.83333 6.43767 6.56233 6.213 6.337C5.98767 6.11233 5.71667 6 5.4 6H3V12ZM4.15 10.85V7.15H5.4V10.85H4.15ZM7.875 12L10.325 11.975V10.85H8.275V9.55H9.575V8.4H8.275V7.15H10.325V6H7.875C7.65833 6 7.47933 6.07067 7.338 6.212C7.196 6.354 7.125 6.53333 7.125 6.75V11.25C7.125 11.4667 7.196 11.6457 7.338 11.787C7.47933 11.929 7.65833 12 7.875 12ZM13.025 11.975C13.2417 11.975 13.429 11.904 13.587 11.762C13.7457 11.6207 13.85 11.4417 13.9 11.225L15.3 6H14.1L13.025 10.1L11.95 6H10.75L12.15 11.225C12.2 11.4417 12.3043 11.6207 12.463 11.762C12.621 11.904 12.8083 11.975 13.025 11.975ZM2 18C1.45 18 0.979 17.8043 0.587 17.413C0.195667 17.021 0 16.55 0 16V2C0 1.45 0.195667 0.979 0.587 0.587C0.979 0.195667 1.45 0 2 0H16C16.55 0 17.021 0.195667 17.413 0.587C17.8043 0.979 18 1.45 18 2V16C18 16.55 17.8043 17.021 17.413 17.413C17.021 17.8043 16.55 18 16 18H2Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+
+        </div>
+
+        <div class="intro_wrapper">
+          <video src="./main_intro.mp4" preload="auto" loop muted autoplay playsinline></video>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="app"></div>
+  <style>
+    footer {
+      background-color: black;
+      color: gray;
+      height: 80px;
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <footer>Copyright © 2022-present Fredy Sandoval</footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
